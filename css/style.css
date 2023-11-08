@@ -1,0 +1,36 @@
+html {
+    font-family: Jura, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-image: url(../pictures/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card__container {
+    display: flex;
+    overflow: visible;
+}
+
+.card-img {
+    border-radius: 100%;
+    margin-left: 1.75em;
+    border: .1em solid white;
+    height: 12em;
+    width: 12em;
+    box-shadow: .1rem .1rem .75rem .01rem #888888;
+}
+
+.header__name {
+    padding-bottom: .75em;
+    font-weight: bold;
+    border-bottom: 1.5px solid #000000;
+}
+
+.card {
+    padding: 1em;
+    background-color: white;
+    box-shadow: .5rem .2rem .9rem .2rem #888888;
+}
