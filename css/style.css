@@ -1,3 +1,5 @@
+@import url(../fonts/style.css);
+
 html {
     font-family: Jura, sans-serif;
     font-weight: 400;
@@ -33,4 +35,9 @@ body {
     padding: 1em;
     background-color: white;
     box-shadow: .5rem .2rem .9rem .2rem #888888;
+}
+
+.icons {
+    padding-right: .75em;
+    font-size: 1.2em;
 }
