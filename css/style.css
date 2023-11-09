@@ -1,7 +1,7 @@
 @import url(../fonts/style.css);
 
 html {
-    font-family: Jura, sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
 }
 
@@ -11,17 +11,19 @@ body {
     background-attachment: fixed;
 }
 
-.card__container {
+.card-container {
     display: flex;
-    overflow: visible;
-    flex-wrap: wrap;
+    overflow-x: auto;
 }
 
 .card-img {
+    object-position: top;
+    object-fit: cover;
     margin-top: -8em;
     border-radius: 100%;
-    margin-left: 4em;
-    border: .1em solid white;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: .2em solid white;
     height: 12em;
     width: 12em;
     box-shadow: .1rem .1rem .75rem .01rem #888888;
@@ -31,13 +33,14 @@ body {
     padding-bottom: .75em;
     font-weight: bold;
     border-bottom: 1.5px solid #000000;
+    font-size: larger;
 }
 
 .card {
-    padding: 1em;
+    padding: 2em;
     background-color: white;
     box-shadow: .5rem .2rem .9rem .2rem #888888;
-    width: 20em;
+    max-width: 30em;
     margin-top: 10em;
 }
 
