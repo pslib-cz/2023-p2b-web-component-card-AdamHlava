@@ -17,8 +17,9 @@ body {
 }
 
 .card-img {
+    margin-top: -8em;
     border-radius: 100%;
-    margin-left: 1.75em;
+    margin-left: 4em;
     border: .1em solid white;
     height: 12em;
     width: 12em;
@@ -35,9 +36,15 @@ body {
     padding: 1em;
     background-color: white;
     box-shadow: .5rem .2rem .9rem .2rem #888888;
+    width: 20em;
+    margin-top: 10em;
 }
 
 .icons {
     padding-right: .75em;
     font-size: 1.2em;
+}
+
+.card__header {
+    overflow: visible;
 }
